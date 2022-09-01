@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programming_languages",
+  "info": {
+    "singularName": "programming-language",
+    "pluralName": "programming-languages",
+    "displayName": "Programming Language",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "themes.theme-image"
+    },
+    "external_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils.external-links"
+    }
+  }
+}

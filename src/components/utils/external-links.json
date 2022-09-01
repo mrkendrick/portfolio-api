@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_utils_external_links",
+  "info": {
+    "displayName": "External Link",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

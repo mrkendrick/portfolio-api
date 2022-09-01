@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_themes_theme_images",
+    "info": {
+        "displayName": "Theme Image",
+        "icon": "paint-brush"
+    },
+    "options": {},
+    "attributes": {
+        "dark": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "light": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_jobs_position_descriptions",
+    "info": {
+        "displayName": "Position Description",
+        "icon": "toggle-off"
+    },
+    "options": {},
+    "attributes": {
+        "organization": {
+            "type": "string",
+            "required": true
+        },
+        "role": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "richtext",
+            "required": true
+        },
+        "start": {
+            "type": "string",
+            "required": true
+        },
+        "end": {
+            "type": "string"
+        }
+    }
+}

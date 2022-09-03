@@ -14,8 +14,5 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      # - run: pm2 stop portfolio-core
       - run: yarn install
       - run: NODE_ENV=production yarn build
-      # - run: pm2 start joystick-core
-      # - run: pm2 save

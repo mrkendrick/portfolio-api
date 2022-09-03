@@ -7,7 +7,8 @@
     "develop": "NODE_ENV=development strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "predeploy": "scp .env charles@139.162.155.177:~/config/portfolio"
   },
   "devDependencies": {},
   "dependencies": {

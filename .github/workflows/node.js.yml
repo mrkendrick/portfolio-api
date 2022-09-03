@@ -19,5 +19,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+      - run: cp ~/config/portfolio/.env ./
       - run: yarn install
       - run: NODE_ENV=production yarn build

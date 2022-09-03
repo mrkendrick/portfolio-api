@@ -23,4 +23,4 @@ jobs:
       - run: cp ~/config/portfolio/.env ./
       - run: yarn install
       - run: NODE_ENV=production yarn build
-      - run: pm2 stop portfolio-core
+      - run: pm2 start portfolio-core

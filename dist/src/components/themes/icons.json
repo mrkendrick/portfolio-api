@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_themes_icons",
+    "info": {
+        "displayName": "Icons",
+        "icon": "icons"
+    },
+    "options": {},
+    "attributes": {
+        "dark": {
+            "type": "string",
+            "required": true
+        },
+        "light": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

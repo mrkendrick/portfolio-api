@@ -17,15 +17,16 @@
             "required": true,
             "unique": true
         },
-        "icons": {
-            "type": "component",
-            "repeatable": false,
-            "component": "themes.theme-image"
-        },
         "external_link": {
             "type": "component",
             "repeatable": false,
             "component": "utils.external-links"
+        },
+        "icons": {
+            "type": "component",
+            "repeatable": false,
+            "component": "themes.icons",
+            "required": true
         }
     }
 }
